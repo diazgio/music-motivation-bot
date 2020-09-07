@@ -1,6 +1,10 @@
 require 'telegram/bot'
 require_relative 'training'
 require_relative 'study'
+require_relative 'work'
+require_relative 'relax'
+require_relative 'dance'
+require_relative 'romance'
 
 class Bot
   token = "918223094:AAFwkiG1yn4Vsqg_Y-aO4lIZOwx6e8Ava7g"
