@@ -7,7 +7,7 @@
 ![screenshot](./img/capstone.png)
 
 ## Concept
-> Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
+> Telegram-bot, One of the most popular attributes from Telegram it's the possibility of creating your own bot that does whatever you want. In this opportunity, I create a bot to give you some random music for different occasions like training, study, relax, etc. The bot gives you a Youtube link to play this music.
 
 ## 🛠 Built With
 

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative '../lib/bot.rb'
 
 puts 'Hello, Welcome to Music motivation bot'
