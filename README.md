@@ -1,59 +1,72 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# 🧐 Music-Motivation Bot Telegram
 
-> One paragraph statement about the project.
+> Ruby's Telegram-Bot Project
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/capstone.png)
 
-Additional description about the project and its features.
+## Concept
+> Tic-tac-toe, noughts and crosses, or Xs and Os is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
 
-## Built With
+## 🛠 Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Ruby,
+- Ruby gem Telegram-bot,
+- Ruby gem Rspec
+- Ruby gem Bundle
+- Control version RVM
+- Linters
 
 
-To get a local copy up and running follow these simple example steps.
+## 🔧 Getting Started
 
-### Prerequisites
+> To get a local copy up and running follow these simple example steps.
 
-### Setup
+- Go to the main page of the repo.
+- Press the "Code" button and get the repo link.
+- Clone it using git clone.
 
-### Install
+### 📝 Prerequisites
+
+- Ruby -v2.7.0p0
+
+### 📝 Setup
+
+ - Open a terminal
+ - Copy this code : 
+        ```
+        git clone "put the link from github repo"
+        ```
+- Run the program with this code :
+        ```
+        ruby bin/main.rb
+        ```
+- Stop the program with: "Ctrl + C" (Windows or Linux) or "Command + C"(Apple)
+
+### 📝 How to interact with the bot?
+
+- When the program is running go to your page of telegram
+
+- Search for: @MusicMotiBot
+
+- Click on Start
+
+- Follow the instructions
+
+- Enjoy the music.
 
 ### Usage
 
-### Run tests
+- Personal Project - Create a Telegram-bot to run basic concepts of Ruby language just for learning propose.
 
-### Deployment
+## 👤 Authors
 
+👤 **Giordano Díaz**
 
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@diazgio](https://github.com/diazgio)
+- Twitter: [@giordano_diaz](https://twitter.com/giordano_diaz)
+- LinkenIn:[LinkenIn](www.linkedin.com/in/Giordano-Diaz)
 
 ## 🤝 Contributing
 
