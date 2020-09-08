@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Relax
   attr_reader :list
   def initialize

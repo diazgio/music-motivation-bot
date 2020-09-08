@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class Dance
   attr_reader :list
   def initialize
