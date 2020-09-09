@@ -2,15 +2,15 @@ class Category
   attr_reader :training, :dance, :relax, :study, :work, :romane
   def initialize
     @training = ['https://www.youtube.com/watch?v=PsO6ZnUZI0g&ab_channel=KanyeWestVEVO',
-             'https://www.youtube.com/watch?v=X6BOs1Ejpvw&ab_channel=WorkoutMusic',
-             'https://www.youtube.com/watch?v=Pe1cKdDfwdU&ab_channel=TalehHesenovVideolar%C4%B1',
-             'https://www.youtube.com/watch?v=a1CwygQ13VI&ab_channel=Songholics',
-             'https://www.youtube.com/watch?v=hvlaWs0LK9g&ab_channel=Thefactopedia',
-             'https://www.youtube.com/watch?v=OIuPJtS6FxU&ab_channel=Theworldbestdancemusic',
-             'https://www.youtube.com/watch?v=VQLI2KUnxa8&ab_channel=GoranPetrovic',
-             'https://www.youtube.com/watch?v=2_tm4WlVkBg&ab_channel=BodybuildingMusicDTV',
-             'https://www.youtube.com/watch?v=O0bwIiAup70&ab_channel=proegy',
-             'https://www.youtube.com/watch?v=Er59Qnlxdfk&ab_channel=CityGym-M%C3%BAsicaElectr%C3%B3nica']
+                 'https://www.youtube.com/watch?v=X6BOs1Ejpvw&ab_channel=WorkoutMusic',
+                 'https://www.youtube.com/watch?v=Pe1cKdDfwdU&ab_channel=TalehHesenovVideolar%C4%B1',
+                 'https://www.youtube.com/watch?v=a1CwygQ13VI&ab_channel=Songholics',
+                 'https://www.youtube.com/watch?v=hvlaWs0LK9g&ab_channel=Thefactopedia',
+                 'https://www.youtube.com/watch?v=OIuPJtS6FxU&ab_channel=Theworldbestdancemusic',
+                 'https://www.youtube.com/watch?v=VQLI2KUnxa8&ab_channel=GoranPetrovic',
+                 'https://www.youtube.com/watch?v=2_tm4WlVkBg&ab_channel=BodybuildingMusicDTV',
+                 'https://www.youtube.com/watch?v=O0bwIiAup70&ab_channel=proegy',
+                 'https://www.youtube.com/watch?v=Er59Qnlxdfk&ab_channel=CityGym-M%C3%BAsicaElectr%C3%B3nica']
 
     @dance = ['https://www.youtube.com/watch?v=KW1NbZo-ruo',
               'https://www.youtube.com/watch?v=9uZV49KtPLw',
@@ -24,15 +24,15 @@ class Category
               'https://www.youtube.com/watch?v=IQivptPZ6Jo']
 
     @relax = ['https://www.youtube.com/watch?v=WY-_LF2iUmA',
-             'https://www.youtube.com/watch?v=zS0v8NOP6Tc',
-             'https://www.youtube.com/watch?v=DNrnDx-KZUY',
-             'https://www.youtube.com/watch?v=mztWQ9zlad4',
-             'https://www.youtube.com/watch?v=6v2aZtIoLOs',
-             'https://www.youtube.com/watch?v=Gw11f2hMKWA',
-             'https://www.youtube.com/watch?v=LZU4sLdu1Os',
-             'https://www.youtube.com/watch?v=8g9fmiNVYNI',
-             'https://www.youtube.com/watch?v=fuleJZ_T_n0',
-             'https://www.youtube.com/watch?v=y3M1KpyZUqE']
+              'https://www.youtube.com/watch?v=zS0v8NOP6Tc',
+              'https://www.youtube.com/watch?v=DNrnDx-KZUY',
+              'https://www.youtube.com/watch?v=mztWQ9zlad4',
+              'https://www.youtube.com/watch?v=6v2aZtIoLOs',
+              'https://www.youtube.com/watch?v=Gw11f2hMKWA',
+              'https://www.youtube.com/watch?v=LZU4sLdu1Os',
+              'https://www.youtube.com/watch?v=8g9fmiNVYNI',
+              'https://www.youtube.com/watch?v=fuleJZ_T_n0',
+              'https://www.youtube.com/watch?v=y3M1KpyZUqE']
 
     @study = ['https://www.youtube.com/watch?v=lz1HXLT42RQ',
               'https://www.youtube.com/watch?v=XYXMxOAb9RM&ab_channel=ClubRespawn',
@@ -57,15 +57,15 @@ class Category
              'https://www.youtube.com/watch?v=WvCPOYqypFM']
 
     @romane = ['https://www.youtube.com/watch?v=pioizAsehlk',
-              'https://www.youtube.com/watch?v=atkAOjx7kh8',
-              'https://www.youtube.com/watch?v=Ri3WsPDi4MY',
-              'https://www.youtube.com/watch?v=_XRZMKW6xGI',
-              'https://www.youtube.com/watch?v=5HgU3cN_nds',
-              'https://www.youtube.com/watch?v=usngnL_wSKI',
-              'https://www.youtube.com/watch?v=qj9ya7fnCyE',
-              'https://www.youtube.com/watch?v=3NycM9lYdRI',
-              'https://www.youtube.com/watch?v=IN3DnZgZ3HI',
-              'https://www.youtube.com/watch?v=yFHaWgisNps']
+               'https://www.youtube.com/watch?v=atkAOjx7kh8',
+               'https://www.youtube.com/watch?v=Ri3WsPDi4MY',
+               'https://www.youtube.com/watch?v=_XRZMKW6xGI',
+               'https://www.youtube.com/watch?v=5HgU3cN_nds',
+               'https://www.youtube.com/watch?v=usngnL_wSKI',
+               'https://www.youtube.com/watch?v=qj9ya7fnCyE',
+               'https://www.youtube.com/watch?v=3NycM9lYdRI',
+               'https://www.youtube.com/watch?v=IN3DnZgZ3HI',
+               'https://www.youtube.com/watch?v=yFHaWgisNps']
   end
 
   def list_pick(category)
