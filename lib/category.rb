@@ -1,3 +1,5 @@
+# rubocop: disable Metrics/MethodLength
+
 class Category
   attr_reader :training, :dance, :relax, :study, :work, :romane
   def initialize
@@ -73,3 +75,5 @@ class Category
     result
   end
 end
+
+# rubocop: enable Metrics/MethodLength
