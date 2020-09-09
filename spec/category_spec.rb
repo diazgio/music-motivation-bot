@@ -1,10 +1,10 @@
 require_relative '../lib/training'
 
-describe Training do
+describe Category do
   context '#initialize' do
-    let(:song) { Training.new }
+    let(:song) { Category.new }
     it 'Equals to array' do
-      expect(song.list).to eq(['https://www.youtube.com/watch?v=PsO6ZnUZI0g&ab_channel=KanyeWestVEVO',
+      expect(song.training).to eq(['https://www.youtube.com/watch?v=PsO6ZnUZI0g&ab_channel=KanyeWestVEVO',
                                'https://www.youtube.com/watch?v=X6BOs1Ejpvw&ab_channel=WorkoutMusic',
                                'https://www.youtube.com/watch?v=Pe1cKdDfwdU&ab_channel=TalehHesenovVideolar%C4%B1',
                                'https://www.youtube.com/watch?v=a1CwygQ13VI&ab_channel=Songholics',
@@ -18,9 +18,9 @@ describe Training do
   end
 
   context '#list_pick' do
-    let(:song) { Training.new }
+    let(:song) { Category.new }
     it 'equals to string' do
-      expect(song.list_pick.class).to eq(String)
+      expect(song.list_pick(song.training).class).to eq(String)
     end
   end
 end
