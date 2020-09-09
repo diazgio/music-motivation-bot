@@ -5,6 +5,7 @@ require_relative 'category'
 
 class Bot
   token = '918223094:AAFwkiG1yn4Vsqg_Y-aO4lIZOwx6e8Ava7g'
+  mood = Category.new
 
   Telegram::Bot::Client.run(token) do |bot|
     bot.listen do |message|
@@ -12,29 +13,23 @@ class Bot
       when '/start'
         bot.api.send_message(chat_id: message.chat.id, text: "Hi, #{message.from.first_name}, Welcome to music motivation, this bot will give you random youtube links of music depending of the category that you choose. Use /start to start the bot, /stop to stop the bot, You can choose beetwing this categories just write any of this: /training, /study, /work, /relax, /dance, /romance")
       when '/training'
-        mood = Category.new
-        song = mood.list_pick(mood.training)
-        bot.api.send_message(chat_id: message.chat.id, text: song.to_s, date: message.date)
+        mood.list_pick(mood.training)
+        bot.api.send_message(chat_id: message.chat.id, text: mood.list_pick(mood.training).to_s, date: message.date)
       when '/study'
-        mood = Category.new
-        song = mood.list_pick(mood.study)
-        bot.api.send_message(chat_id: message.chat.id, text: song.to_s, date: message.date)
+        mood.list_pick(mood.study)
+        bot.api.send_message(chat_id: message.chat.id, text: mood.list_pick(mood.study).to_s, date: message.date)
       when '/work'
-        mood = Category.new
-        song = mood.list_pick(mood.work)
-        bot.api.send_message(chat_id: message.chat.id, text: song.to_s, date: message.date)
+        mood.list_pick(mood.work)
+        bot.api.send_message(chat_id: message.chat.id, text: mood.list_pick(mood.work).to_s, date: message.date)
       when '/relax'
-        mood = Category.new
-        song = mood.list_pick(mood.relax)
-        bot.api.send_message(chat_id: message.chat.id, text: song.to_s, date: message.date)
+        mood.list_pick(mood.relax)
+        bot.api.send_message(chat_id: message.chat.id, text: mood.list_pick(mood.relax).to_s, date: message.date)
       when '/dance'
-        mood = Category.new
-        song = mood.list_pick(mood.dance)
-        bot.api.send_message(chat_id: message.chat.id, text: song.to_s, date: message.date)
+        mood.list_pick(mood.dance)
+        bot.api.send_message(chat_id: message.chat.id, text: mood.list_pick(mood.dance).to_s, date: message.date)
       when '/romance'
-        mood = Category.new
-        song = mood.list_pick(mood.romance)
-        bot.api.send_message(chat_id: message.chat.id, text: song.to_s, date: message.date)
+        mood.list_pick(mood.romance)
+        bot.api.send_message(chat_id: message.chat.id, text: mood.list_pick(mood.romance).to_s, date: message.date)
       when '/stop'
         bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}", date: message.date)
       else
