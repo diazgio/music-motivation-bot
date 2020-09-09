@@ -1,4 +1,4 @@
-# rubocop: disable Metrics/BlockLength,Layout/LineLength
+# rubocop: disable Metrics/MethodLength,Metrics/CyclomaticComplexity,Metrics/AbcSize,Layout/LineLength
 
 require 'telegram/bot'
 require_relative 'category'
@@ -49,4 +49,4 @@ class Bot
   end
 end
 
-# rubocop: enable Metrics/BlockLength,Layout/LineLength
+# rubocop: enable Metrics/MethodLength,Metrics/CyclomaticComplexity,Metrics/AbcSize,Layout/LineLength
