@@ -13,6 +13,10 @@
 
 [Link Presentation Video](https://www.loom.com/share/824adf88e7594ef5a42b0066a20317c8)
 
+## Invitation Link
+
+[Invitation Group Link](https://t.me/joinchat/Uw01_Rw6WUM6xqbpzlSKXA)
+
 ## 🛠 Built With
 
 - Ruby,
@@ -42,9 +46,13 @@
         ```
         git clone "put the link from github repo"
         ```
+ - Run the program with this code :
+        ```
+        bundle install
+        ```       
 - Run the program with this code :
         ```
-        ruby bin/main.rb
+        bundle exec ruby bin/main.rb
         ```
 - Stop the program with: "Ctrl + C" (Windows or Linux) or "Command + C"(Apple)
 
