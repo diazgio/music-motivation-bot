@@ -1,7 +1,7 @@
 # rubocop: disable Metrics/MethodLength
 
 class Category
-  attr_reader :training, :dance, :relax, :study, :work, :romane
+  attr_reader :training, :dance, :relax, :study, :work, :romance
   def initialize
     @training = ['https://www.youtube.com/watch?v=PsO6ZnUZI0g&ab_channel=KanyeWestVEVO',
                  'https://www.youtube.com/watch?v=X6BOs1Ejpvw&ab_channel=WorkoutMusic',

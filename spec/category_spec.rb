@@ -1,4 +1,4 @@
-require_relative '../lib/training'
+require_relative '../lib/category'
 
 describe Category do
   context '#initialize' do
