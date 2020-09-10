@@ -1,59 +1,84 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# 🧐 Music-Motivation Bot Telegram
 
-> One paragraph statement about the project.
+> Ruby's Telegram-Bot Project
 
-![screenshot](./app_screenshot.png)
+![screenshot](./img/capstone.png)
 
-Additional description about the project and its features.
+## Concept
+> Telegram-bot, One of the most popular attributes from Telegram it's the possibility of creating your own bot that does whatever you want. In this opportunity, I create a bot to give you some random music for different occasions like training, study, relax, etc. The bot gives you a Youtube link to play this music.
 
-## Built With
+## 🎥 PRESENTATION VIDEO
 
-- Major languages,
-- frameworks,
-- technologies used
+[Link Presentation Video](https://www.loom.com/share/824adf88e7594ef5a42b0066a20317c8)
 
-## Live Demo
+## Invitation Link
 
-[Live Demo Link](https://livedemo.com)
+[Invitation Group Link](https://t.me/joinchat/Uw01_Rw6WUM6xqbpzlSKXA)
+
+## 🛠 Built With
+
+- Ruby,
+- Ruby gem Telegram-bot,
+- Ruby gem Rspec
+- Ruby gem Bundle
+- Control version RVM
+- Linters
 
 
-## Getting Started
+## 🔧 Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+> To get a local copy up and running follow these simple example steps.
 
+- Go to the main page of the repo.
+- Press the "Code" button and get the repo link.
+- Clone it using git clone.
 
-To get a local copy up and running follow these simple example steps.
+### 📝 Prerequisites
 
-### Prerequisites
+- Ruby -v2.7.0p0
 
-### Setup
+### 📝 Setup
 
-### Install
+ - Open a terminal
+ - Copy this code : 
+        ```
+        git clone "put the link from github repo"
+        ```
+ - Run the program with this code :
+        ```
+        bundle install
+        ```       
+- Run the program with this code :
+        ```
+        bundle exec ruby bin/main.rb
+        ```
+- Stop the program with: "Ctrl + C" (Windows or Linux) or "Command + C"(Apple)
+
+### 📝 How to interact with the bot?
+
+- When the program is running go to your page of telegram
+
+- Search for: @MusicMotiBot
+
+- Click on Start
+
+- Follow the instructions
+
+- Enjoy the music.
 
 ### Usage
 
-### Run tests
+- Personal Project - Create a Telegram-bot to run basic concepts of Ruby language just for learning propose.
 
-### Deployment
+## 👤 Authors
 
+👤 **Giordano Díaz**
 
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@diazgio](https://github.com/diazgio)
+- Twitter: [@giordano_diaz](https://twitter.com/giordano_diaz)
+- LinkenIn:[LinkenIn](www.linkedin.com/in/Giordano-Diaz)
 
 ## 🤝 Contributing
 
